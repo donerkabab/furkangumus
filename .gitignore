@@ -1,0 +1,8 @@
+# Node / build artifacts (not needed)
+node_modules/
+_react_archive/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+transform_to_furkan.py
