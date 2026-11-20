@@ -319,3 +319,29 @@ div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+
+/* CUSTOM: Full-size backgrounds and responsive images for Furkan Gümüş */
+.wsite-header-section {
+    min-height: 470px !important;
+    height: 470px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.banner-wrap {
+    background: #111a24;
+}
+
+.wsite-image:not(.wsite-image-line) img:not([src*="gray-line"]) {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    object-fit: cover;
+}
+
+.wsite-multicol-col .wsite-image {
+    width: 100% !important;
+}
