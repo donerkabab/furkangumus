@@ -120,7 +120,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	
 	function initFlyouts(){
 		initPublishedFlyoutMenus(
-			[{"id":"362965748392692789","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"852093249159135096","title":"My Story","url":"my-story.html","target":"","nav_menu":false,"nonclickable":false},{"id":"769645488163847940","title":"My Experience","url":"my-experience.html","target":"","nav_menu":false,"nonclickable":false},{"id":"275625239371392035","title":"My Thoughts","url":"my-thoughts.html","target":"","nav_menu":false,"nonclickable":true},{"id":"160430360544819487","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false}],
+			[{"id":"362965748392692789","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"852093249159135096","title":"My Story","url":"my-story.html","target":"","nav_menu":false,"nonclickable":false},{"id":"769645488163847940","title":"My Experience","url":"my-experience.html","target":"","nav_menu":false,"nonclickable":false},{"id":"999999999999999999","title":"My Work","url":"my-work.html","target":"","nav_menu":false,"nonclickable":false},{"id":"160430360544819487","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false}],
 			"362965748392692789",
 			'',
 			'active',
@@ -147,68 +147,31 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 </span></div>
           <div class="nav desktop-nav"><ul class="wsite-menu-default">
 		<li id="active" class="wsite-menu-item-wrap">
-			<a
-						href="/"
-				class="wsite-menu-item"
-				>
+			<a href="/index.html" class="wsite-menu-item">
 				Home
 			</a>
-			
 		</li>
-		<li id="pg852093249159135096" class="wsite-menu-item-wrap">
-			<a
-						href="/my-story.html"
-				class="wsite-menu-item"
-				>
+		<li id="pgStory" class="wsite-menu-item-wrap">
+			<a href="/my-story.html" class="wsite-menu-item">
 				My Story
 			</a>
-			
 		</li>
-		<li id="pg769645488163847940" class="wsite-menu-item-wrap">
-			<a
-						href="/my-experience.html"
-				class="wsite-menu-item"
-				>
+		<li id="pgExperience" class="wsite-menu-item-wrap">
+			<a href="/my-experience.html" class="wsite-menu-item">
 				My Experience
 			</a>
-			
 		</li>
-		<li id="pg275625239371392035" class="wsite-menu-item-wrap">
-			<a
-				class="wsite-menu-item"
-				>
-				My Thoughts
+		<li id="pgWork" class="wsite-menu-item-wrap">
+			<a href="/my-work.html" class="wsite-menu-item">
+				My Work
 			</a>
-			<div class="wsite-menu-wrap" style="display:none">
-	<ul class="wsite-menu">
-		<li id="wsite-nav-350841733219030189"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="/blog.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Blog
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-335358407360017782"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="https://www.linkedin.com/in/furkangumus1998/"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			LinkedIn
-		</span>
-	</a>
-	
-</li>
-
-	</ul>
+		</li>
+		<li id="pgContact" class="wsite-menu-item-wrap">
+			<a href="/contact.html" class="wsite-menu-item">
+				Contact
+			</a>
+		</li>
+</ul>
 </div>
 
 		</li>
@@ -239,7 +202,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 				<div class="wsite-section-elements">
 					<h2 class="wsite-content-title" style="text-align:left;">Furkan Gümüş</h2>
 
-<div class="paragraph" style="text-align:left;"><font size="6" color="#d5d5d5">Mining Engineer &middot; Gold Mining &amp; Mineral Processing</font></div>
+<div class="paragraph" style="text-align:left;"><font size="6" color="#d5d5d5">Process &amp; Mining Engineer &middot; Gold Processing &amp; Mineral Beneficiation</font></div>
 
 <div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
 <a class="wsite-button wsite-button-large wsite-button-highlight" href="/my-story.html" >
@@ -477,7 +440,7 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 
 <h2 class="wsite-content-title"><font color="#ffffff">My Expertise</font></h2>
 
-<div class="paragraph"><font color="#ffffff"><strong>Hi, I'm Furkan</strong>. I am a Mining Engineer with strong hands-on experience in gold mining and mineral processing operations, including crushing, leaching, and gold recovery processes. I am passionate about process optimisation and contributing to high-performing teams.</font></div>
+<div class="paragraph"><font color="#ffffff"><strong>Hi, I'm Furkan</strong>. I am an operations-driven Mining Engineer with 3+ years of shift and process engineering experience in gold extraction plants and open-pit operations, currently serving at <strong>Avesoro Resources</strong> and previously with <strong>Centerra Gold (Öksüt Gold Mine)</strong>. I specialize in crushing, grinding, CIL/CIP, heap leaching, ADR, and gold recovery circuits.</font></div>
 
 <div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
 <a class="wsite-button wsite-button-large wsite-button-highlight" href="/my-work.html" >
@@ -868,79 +831,29 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
     <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
     <ul class="wsite-menu-default">
     		<li id="active" class="wsite-menu-item-wrap">
-    			<a
-    						href="/"
-    				class="wsite-menu-item"
-    				>
+    			<a href="/index.html" class="wsite-menu-item">
     				Home
     			</a>
-    			
     		</li>
-    		<li id="pg852093249159135096" class="wsite-menu-item-wrap">
-    			<a
-    						href="/my-story.html"
-    				class="wsite-menu-item"
-    				>
+    		<li id="pgStory" class="wsite-menu-item-wrap">
+    			<a href="/my-story.html" class="wsite-menu-item">
     				My Story
     			</a>
-    			
     		</li>
-    		<li id="pg769645488163847940" class="wsite-menu-item-wrap">
-    			<a
-    						href="/my-experience.html"
-    				class="wsite-menu-item"
-    				>
+    		<li id="pgExperience" class="wsite-menu-item-wrap">
+    			<a href="/my-experience.html" class="wsite-menu-item">
     				My Experience
     			</a>
-    			
     		</li>
-    		<li id="pg275625239371392035" class="wsite-menu-item-wrap">
-    			<a
-    				class="wsite-menu-item"
-    				>
-    				My Thoughts
+    		<li id="pgWork" class="wsite-menu-item-wrap">
+    			<a href="/my-work.html" class="wsite-menu-item">
+    				My Work
     			</a>
-    			<div class="wsite-menu-wrap" style="display:none">
-	<ul class="wsite-menu">
-		<li id="wsite-nav-350841733219030189"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="/blog.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Blog
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-335358407360017782"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="https://www.linkedin.com/in/furkangumus1998/"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			LinkedIn
-		</span>
-	</a>
-	
-</li>
-
-	</ul>
-</div>
-
     		</li>
-    		<li id="pg160430360544819487" class="wsite-menu-item-wrap">
-    			<a
-    						href="/contact.html"
-    				class="wsite-menu-item"
-    				>
+    		<li id="pgContact" class="wsite-menu-item-wrap">
+    			<a href="/contact.html" class="wsite-menu-item">
     				Contact
     			</a>
-    			
     		</li>
     </ul>
   </div>

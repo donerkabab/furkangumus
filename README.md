@@ -1,59 +1,53 @@
 # Furkan Gümüş — Personal Portfolio
 
-Personal portfolio website for Furkan Gümüş, Mining Engineer specialising in
-gold mining and mineral processing operations.
+Professional portfolio website for **Furkan Gümüş**, Process & Mining Engineer specializing in gold mining, mineral processing, and operational excellence.
 
-Built from the alancavagnaro.com Weebly/Birdseye theme with original content
-replaced.  All HTML, CSS, and JavaScript structure is preserved.
+Built from the exact `alancavagnaro.com` Weebly/Birdseye theme with 100% of the HTML structure, CSS stylesheets, layout dimensions, fonts, and responsiveness preserved.
+
+---
+
+## Profile Summary
+
+- **Title**: Process & Mining Engineer / Mineral Processing Engineer
+- **Current Position**: Process Shift Engineer at **Avesoro Resources** (FIFO Rotation, Liberia)
+- **Previous Position**: Process Shift Engineer at **Centerra Gold Inc. (Öksüt Gold Mine)** (Kayseri, Turkey)
+- **Education**: B.Sc. in Mining Engineering, **Hacettepe University** (100% English Curriculum, GPA: 3.05/4.00, Department 1st Place Capstone Project)
+- **Expertise**: Crushing & Grinding, CIL/CIP Leaching, Heap Leaching, Zadra ADR, Elution & Electrowinning, Induction Smelting & Dore Production, Metallurgical Accounting, Mass & Energy Balance, KPI Monitoring, HSE & AI-assisted Safety Management.
+- **Languages**: Turkish (Native), English (Advanced/Fluent), Mandarin Chinese (HSK 3 - Peking University)
+- **Contact**: Ankara, Turkey | +90 553 151 3644 | furkangumus166@gmail.com | [LinkedIn](https://www.linkedin.com/in/furkangumus1998/)
+
+---
+
+## Pages
+
+1. **`index.html`** — Home (Hero with Furkan's photo collage, 3 operational focus cards, professional summary, contact CTA)
+2. **`my-story.html`** — My Story (Furkan's biography, academic foundation at Hacettepe, career milestones at Avesoro and Centerra Gold, safety philosophy, international ambitions)
+3. **`my-experience.html`** — My Experience (Technical skillset grid, complete career timeline, education, awards & honors)
+4. **`my-work.html`** — My Work (8 dedicated gold processing and operational excellence cards)
+5. **`contact.html`** — Contact (Direct phone, email, location, LinkedIn connection, and contact form)
+
+---
 
 ## Local Preview
 
 ```bash
-cd www.alancavagnaro.com
+cd /home/elliot/myworks/furkangumus/www.alancavagnaro.com
 python3 -m http.server 8080
-# Open: http://localhost:8080/
 ```
 
-## GitHub Pages Deployment
+Open `http://localhost:8080/` in your browser.
 
-1. Create a new GitHub repository (e.g. `furkan-portfolio`)
-2. Push this project:
+---
+
+## Deployment to GitHub Pages
+
+1. Push this repository to GitHub:
    ```bash
-   git init
    git add .
-   git commit -m "Initial portfolio"
+   git commit -m "feat: integrate Furkan's photos and resume"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/furkan-portfolio.git
+   git remote add origin https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
    git push -u origin main
    ```
-3. In repo **Settings → Pages → Source → GitHub Actions**
-4. The site deploys automatically via `.github/workflows/deploy.yml`
-
-## Content Placeholders
-
-The following items need real information from Furkan:
-
-| Placeholder | Location | What to update |
-|---|---|---|
-| `[Current Mining Company]` | my-experience.html | Real employer name |
-| `[Start Date]` | my-experience.html | Employment start date |
-| `[Previous Mining Operation]` | my-experience.html | Previous employer |
-| `[University Name — Turkey]` | my-experience.html | Degree institution |
-| `[Graduation Year]` | my-experience.html | Year of graduation |
-| Profile photo | uploads/.../editor/img-8421.jpg | Portrait photo |
-| Operations photos | uploads/.../*_orig.jpg | Work/site photos |
-
-## Pages
-
-- `index.html` — Home
-- `my-story.html` — About / Biography
-- `my-experience.html` — Career & Skills
-- `my-work.html` — Projects & Operations
-- `contact.html` — Contact
-
-## Notes
-
-- The Weebly contact form (`action="https://www.weebly.com/weebly/apps/formSubmit.php"`)
-  will not submit (requires Weebly account). Use LinkedIn for contact.
-- Background images are from the original site and are scenery/abstract —
-  they do not contain any personal photos of Alan Cavagnaro.
+2. In GitHub: **Repository Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. `.github/workflows/deploy.yml` automatically publishes the website.
